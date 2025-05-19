@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "calculator.h": "c",
+        "glib-object.h": "c",
+        "add.h": "c",
+        "sub.h": "c",
+        "mul.h": "c",
+        "cstdlib": "c"
+    }
+}
