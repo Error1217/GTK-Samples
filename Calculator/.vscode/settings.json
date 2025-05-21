@@ -5,6 +5,8 @@
         "add.h": "c",
         "sub.h": "c",
         "mul.h": "c",
-        "cstdlib": "c"
-    }
+        "cstdlib": "c",
+        "path_utils.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "D:/msys64/ucrt64/bin/gcc.exe",
 }

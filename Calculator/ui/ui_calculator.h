@@ -12,7 +12,9 @@
 #define BUTTON_ROW 4
 #define BUTTON_COL 4
 
-#define CSS_PATH "E:\\WindowDevelop\\gtk-Samples\\Calculator\\style\\main.css"
+// #define CSS_PATH "E:\\WindowDevelop\\gtk-Samples\\Calculator\\style\\main.css"
+// #define CSS_PATH "/style/main.css"
+#define CSS_PATH "../style/main.css"
 
 typedef struct {
     GtkWidget *window;

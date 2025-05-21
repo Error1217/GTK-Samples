@@ -1,6 +1,7 @@
 
 #include "ui_calculator.h"
 
+
 const char *button_labels[4][4] = {
     {"7", "8", "9", "/"},
     {"4", "5", "6", "X"},
@@ -64,6 +65,7 @@ void init_ui_calculator(UICalculator *ui, GtkApplication *app)
 
     GtkCssProvider *provider = gtk_css_provider_new();
     gtk_css_provider_load_from_file(provider, g_file_new_for_path(CSS_PATH), &error);
+    // g_print("%s", error->message);
     GtkStyleContext *context = gtk_widget_get_style_context(ui->window);
 
     gtk_style_context_add_provider_for_screen(

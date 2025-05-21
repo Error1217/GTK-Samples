@@ -6,7 +6,9 @@
 
 #include "ui/ui_calculator.h"
 
-void on_active(GtkApplication *app, gpointer user_data){
+
+void on_active(GtkApplication *app, gpointer user_data)
+{
     UICalculator *ui = g_new0(UICalculator, 1);
     CalculatorContext *ctx = g_new0(CalculatorContext, 1);
 
@@ -23,7 +25,8 @@ void on_active(GtkApplication *app, gpointer user_data){
     gtk_widget_show_all(ui->window);
 }
 
-static int run(int argc, char **argv){
+static int run(int argc, char **argv)
+{
     GtkApplication *app;
     int status;
 
@@ -37,8 +40,15 @@ static int run(int argc, char **argv){
 }
 
 
+
+
 int main(int argc, char **argv){    
     int status;
     status = run(argc, argv);
+    
+    
     return status;
 }
+
+
+

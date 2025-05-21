@@ -12,7 +12,9 @@
                 "D:/msys64/ucrt64/include/harfbuzz",
                 "D:/msys64/ucrt64/include/cairo",
                 "D:/msys64/ucrt64/include/gdk-pixbuf-2.0",
-                "D:/msys64/ucrt64/include/atk-1.0"
+                "D:/msys64/ucrt64/include/atk-1.0",
+                "${workspaceFolder}",
+                "E:/WindowDevelop/gtk-Samples"
             ],
             "defines": [
                 "_DEBUG",
